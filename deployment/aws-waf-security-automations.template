@@ -919,7 +919,7 @@
             "Fn::Join": [
               "", [
                 "{\"lists\":",
-                "[{\"url\":\"https://www.spamhaus.org/drop/drop.txt\"},{\"url\":\"https://check.torproject.org/exit-addresses\",\"prefix\":\"ExitAddress \"},{\"url\":\"https://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt\"}]",
+                "[{\"url\":\"https://www.spamhaus.org/drop/drop.txt\"},{\"url\":\"https://check.torproject.org/exit-addresses\",\"prefix\":\"ExitAddress \"},{\"url\":\"https://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt\"},{\"url\":\"https://s3.us-east-1.amazonaws.com/viadeo-waf-us-east-1/ForbidenRange.txt\"}]",
                 ",\"logType\":\"cloudfront\"",
                 ",\"region\":\"", {
                   "Ref": "AWS::Region"
